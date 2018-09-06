@@ -11,7 +11,7 @@ const mongoose = require("mongoose");
 const app = express();
 
 //Sets up connection to our MongoDB cloud
-mongoose.connect("mongodb+srv://Rperez:TtWpeNHpOnZ0vVt2@cluster0-xedvk.mongodb.net/node-angular?retryWrites=true")
+mongoose.connect("mongodb+srv://***username***:***yourPW***@cluster0-xedvk.mongodb.net/node-angular?retryWrites=true")
 .then(() => {
   console.log('Connection to Database Successful');
 })
